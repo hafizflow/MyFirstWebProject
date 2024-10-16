@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <style>
+        nav li {
+            display: inline;
+            margin: 10px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        label {
+            display: block;
+            margin: 10px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <Form>
+            <h3>Form</h3>
+            <label for=""> Name:
+                <input type="text" placeholder="Enter your name">
+            </label>
+            <label for=""> Email:
+                <input type="email" placeholder="Enter your email">
+            </label>
+            <label for=""> Pass:
+                <input type="password" placeholder="Enter your password">
+            </label>
+
+            <fieldset>
+                <legend>Select Age</legend>
+                <label for="age">
+                    <input name="year" id="age" type="radio"> 18-25
+                </label>
+                <label for="age">
+                    <input name="year" id="age" type="radio"> 26-32
+                </label>
+                <label for="age">
+                    <input name="year" id="age" type="radio"> 33-45
+                </label>
+            </fieldset>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </Form>
+    </main>
+
+</body>
+
+</html>

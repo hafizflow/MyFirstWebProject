@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 0;
-}
+} */
 
 header{
     background-color: teal;
@@ -10,8 +10,8 @@ header{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    height: 500px;
-    background-image: url('/images/flutter.jpg');
+    /* height: 500px; */
+    /* background-image: url('/images/flutter.jpg'); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: 400px 400px;

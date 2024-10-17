@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        nav li {
-            display: inline;
-            margin: 10px;
-        }
-
         nav li a {
             text-decoration: none;
             color: black;
@@ -31,11 +27,18 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="from.html">From</a></li>
+                <li><a href="hello.html">Hello</a></li>
+                <li>
+                    <a href="table.html" id="table">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="from.html">From</a></li>
+                        <li><a href="hello.html">Hello</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </li>
                 <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>
             </ul>
         </nav>
     </header>
